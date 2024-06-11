@@ -1,0 +1,306 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+nav{
+    margin: 0px;
+}
+.navhead{
+    display: flex;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    justify-content: space-between;
+    padding: 10px 40px;
+    margin: 0px;
+    background-color: blue;
+    box-shadow: 2px 2px 2px blue;
+}
+.logoimg{
+    width: 5%;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+}
+.headsection{
+    font-size: 15px;
+    color:black;
+    font-weight: 100;
+    cursor: pointer;
+}
+.headsectionlink{
+    text-decoration: none;
+}
+.icon{
+    width: 4%;
+}
+.icon2{
+    width: 3%;
+}
+.abouthead{
+    display: flex;
+    margin: 20px 40px;
+    padding: 120px 0px;
+}
+.aboutdsc{
+    width: 70%;
+    word-spacing: 5px;
+    font-size: 18px;
+    color: gray;
+    font-weight: 100;
+    
+}
+/* .aboutdsc2{
+
+} */
+.abouttitle{
+    width: 75%;
+    font-size: 23px;
+    color: gray;
+    font-weight: 100;
+}
+.aboutbody{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.abouttitle1{
+    font-size:18px ;
+    color: gray;
+    font-weight: 100;
+}
+.awardimg{
+    width:30%;
+}
+.awardbody{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.missiondsc{
+    width: 55%;
+    word-spacing: 5px;
+    font-size: 18px;
+    color: gray;
+    font-weight: 100;
+}
+.mvison{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 50px 0px;
+}
+.mission{
+    position: relative;
+    left: 23%;
+}
+.missiontitle{
+    font-weight: 100;
+    color: gray;
+    font-size: 18px;
+}
+.headteach{
+    display: flex;
+    background-color: bisque;
+    padding: 60px 20px;
+   
+}
+.teachtitle{
+    text-transform: uppercase;
+}
+.teachdsc{
+    color: gray;
+}
+.classimg{
+    width: 150%;
+}
+.teachdsc{
+    width: 85%;
+    font-size: 20px;
+}
+.teachbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 30px;
+}
+footer{
+    display: flex;
+    padding: 20px 40px;
+}
+.inform{
+    display: flex;
+    margin-left: 100px;
+    flex: 1;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.footerbody{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.fimg{
+    width: 15%;
+}
+.footertitle{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+.list{
+    margin: 0;
+    padding: 0px;
+   
+}
+.listmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listitems{
+    list-style: none;
+    padding: 8px;
+}
+.clink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.clink a {
+    text-decoration: none;
+    color: lawngreen;
+    font-size: 15px;
+}
+.listitems a{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    font-weight: 100;
+}
+.region{
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+}
+.location{
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+}
+.rtitle{
+    color: gray;
+    font-size: 13px;
+}
+.copy{
+    color: gray;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: blue;
+    width: 100%;
+    padding: 5px;
+}
+@media screen and (max-width:480px) {
+    
+    .navhead{
+        padding: 7px 40px;
+        box-shadow: none;
+        
+        gap: 5px;
+    }
+    .logoimg{
+        width: 12%;
+    }
+    .headsection{
+        font-size: 12px;
+    }
+    .clink{
+        margin: 10px;
+    }
+    .icon{
+        display: none;
+    }
+    .icon2{
+        width: 7%;
+    }
+    .abouthead{
+        margin: 20px 30px;
+        flex-direction: column;
+    }
+    .aboutdsc{
+        width: 100%;
+        font-size: 15px;
+    }
+    .abouttitle{
+        width: 90%;
+        font-size: 18px;
+    }
+    .awardimg{
+        width: 20%;
+    }
+    .missiondsc{
+        font-size: 15px;
+    }
+    .mission{
+        left: 30px;
+    }
+    .missiontitle{
+        font-size: 18px;
+    }
+    .teachtitle{
+        font-size: 18px;
+    }
+    .teachdsc{
+        font-size: 15px;
+    }
+    .teachbody{
+        margin: 0px;
+    }
+    .classimg{
+        width: 140px;
+    }
+
+
+
+    footer{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .footerbody{
+        justify-content: center;
+        gap: 10px;
+        margin: 20px 15px;
+    }
+    .footertitle{
+        font-size: 15px;
+    }
+    .listitems{
+        padding: 4px;
+    }
+    .listitems a{
+        font-size: 14px;
+    }
+    .footertitle{
+        font-size: 15px;
+    }
+    .location{
+        font-size: 15px;
+        margin: 20px;
+    }
+    .rtitle{
+        font-size: 14epx;
+    }
+    .copy{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navhead{
+    display: flex;
+    align-items: center;
+    top: 0;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: blue;
+    box-shadow: 2px 2px 2px 2px blue;
+    
+}
+.logoimg{
+    width: 6%;
+    border-radius: 50px;
+}
+.headsection{
+    font-size: 15px;
+    color:black;
+    font-weight:lighter;
+    cursor: pointer;
+}
+.headsectionlink{
+    text-decoration: none;
+}
+.icon2{
+    width: 3%;
+}
+.bodytitle{
+    width: 20%;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+.body{
+    position: relative;
+}
+.btitle{
+    position: absolute;
+    font-size: 40px;
+    color:aquamarine;
+    bottom: 0;
+    top: 30%;
+    left: 5%;
+    right: 0;
+    margin: auto;
+    width: 35%;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.ourservice{
+    text-align: center;
+    text-transform: uppercase;
+}
+.sdsc{
+    font-size: 14px;
+}
+.stitle{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: aquamarine;
+}
+.service{
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+    margin: 10px 40px;
+}
+.sdsc{
+    width: 80%;
+    color: gray;
+}
+.simg{
+    width: 100%;
+}
+.service1{
+    box-shadow: 2px  2px 2px 2px whitesmoke;
+    width: 80%;
+    padding: 10px 30px;
+
+}
+.choosetitle{
+    text-align: center;
+}
+.chooseus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 40px;
+}
+.choosedsc{
+    background-color:darkblue;
+    padding: 100px 100px;
+    color: white;
+    width: 30%;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px darkblue;
+}
+.choosedsc:last-child{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.chooseus1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 40px;
+}
+.choosedsc1{
+    background-color:red;
+    padding: 100px 100px;
+    color: white;
+    width: 30%;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px red;
+}
+.choosedsc1:last-child{
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px 2px 2px green;
+}
+footer{
+    display: flex;
+    padding: 20px 40px;
+}
+.inform{
+    display: flex;
+    margin-left: 100px;
+    flex: 1;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.footerbody{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.fimg{
+    width: 15%;
+}
+.footertitle{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+.list{
+    margin: 0;
+    padding: 0px;
+   
+}
+.listmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listitems{
+    list-style: none;
+    padding: 8px;
+}
+.clink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.clink a {
+    text-decoration: none;
+    color: lawngreen;
+    font-size: 15px;
+}
+.listitems a{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    font-weight: 100;
+}
+.region{
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+}
+.location{
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+}
+.rtitle{
+    color: gray;
+    font-size: 13px;
+}
+.copy{
+    color: gray;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: blue;
+    width: 100%;
+    padding: 5px;
+}
+@media screen and (max-width:480px) {
+.navhead{
+    padding: 0px;
+    margin: 10px 15px;
+    /* box-shadow: 2px 2px 2px 2px whitesmoke; */
+    gap: 5px;
+    box-shadow: none;
+}
+.logoimg{
+    width: 12%;
+}
+.headsection{
+    font-size: 12px;
+}
+
+.icon{
+    display: none;
+}
+.bodyimg{
+    width: 100%;
+}
+.btitle{
+    font-size: 20px;
+    width: 70%;
+    color: white;
+}
+.ourservice{
+    font-size: 20px;
+    color: gray;
+    padding: 40px 0px;
+}
+.service{
+    flex-direction: column;
+}
+.choosetitle{
+    font-size: 20px;
+    color: gray;
+    padding: 40px 0px;
+}
+.chooseus{
+    flex-direction: column;
+}
+.choosedsc{
+    width: 80%;
+    padding: 30px 30px;
+    font-size: 15px;
+    color: gray;
+}
+.chooseus1{
+    flex-direction: column;
+}
+.choosedsc1{
+    width: 80%;
+    padding: 30px 30px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    font-size: 15px;
+    color: gray;
+}
+.choosedsc:last-child{
+    color: gray;
+}
+.choosedsc1:last-child{
+    color: gray;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 2px 2px aquamarine;
+
+}
+footer{
+    flex-direction: column;
+    padding: 0px;
+}
+.inform{
+    display: flex;
+    flex-direction: column;
+}
+.clink{
+    margin: 10px;
+}
+.footerbody{
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 15px;
+}
+.footertitle{
+    font-size: 15px;
+}
+.listitems{
+    padding: 4px;
+}
+.listitems a{
+    font-size: 11px;
+}
+.footertitle{
+    font-size: 15px;
+}
+.location{
+    font-size: 11px;
+}
+.rtitle{
+    font-size: 11px;
+}
+.copy{
+    font-size: 10px;
+}
+}

@@ -1,0 +1,241 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.navhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+   margin-bottom: 20px;
+    box-shadow: 2px 2px 2px blue;
+    background-color: blue;
+}
+.logoimg{
+    width: 6%;
+    border-radius: 50px;
+}
+.headsection{
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+    font-weight: 100;
+    cursor: pointer;
+}
+.headsectionlink{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.icon2{
+    width: 3%;
+}
+
+.doctordetails{
+    display: flex;
+    flex-direction: column;
+    width: 15%;  
+    position: relative;
+}
+.dimg{
+    width: 120%;
+    border: 5px solid darkblue;
+}
+.dname{
+font-size: 12px;
+text-align: center;
+position: absolute;
+color: white;
+bottom: -10%;
+background-color:navy;
+width: 125.5%;
+padding: 10px 0px;
+font-weight: 500;
+}
+.dhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 80px 80px; 
+    background: url("https://images.unsplash.com/photo-1533628635777-112b2239b1c7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2hpdGUlMjAlMjBiYWNrZ3JvdW5kfGVufDB8MHwwfHx8MA%3D%3D");
+}
+.dgallary{
+    position: relative;
+    margin: 50px 20px ;
+}
+.dgtitle{
+    position: absolute;
+    top: 20%;
+    font-size: 26px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    left: 0;
+    width: 50%;
+    margin: 0px 20px;
+}
+footer{
+    display: flex;
+    padding: 20px 40px;
+}
+.inform{
+    display: flex;
+    margin-left: 100px;
+    flex: 1;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.footerbody{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.fimg{
+    width: 15%;
+}
+.footertitle{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+.list{
+    margin: 0;
+    padding: 0px;
+   
+}
+.listmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listitems{
+    list-style: none;
+    padding: 8px;
+}
+.clink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.clink a {
+    text-decoration: none;
+    color: lawngreen;
+    font-size: 15px;
+}
+.listitems a{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    font-weight: 100;
+}
+.region{
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+}
+.location{
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+}
+.rtitle{
+    color: gray;
+    font-size: 13px;
+}
+.copy{
+    color: gray;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: blue;
+    width: 100%;
+    padding: 5px;
+}
+@media screen and (max-width:480px) {
+    .navhead{
+        padding: 7px 40px;
+        box-shadow: none;
+        
+        gap: 5px;
+    }
+    .logoimg{
+        width: 12%;
+    }
+    .headsection{
+        font-size: 12px;
+    }
+    .clink{
+        margin: 10px;
+    }
+    
+    .icon2{
+        display: none;
+    } 
+    .dname{
+       font-size: 10px;
+        padding: 5px;
+        width: 118.5%;
+        bottom: -35%;
+    } 
+    .dgimg{
+        width: 100%;
+    }
+    .dimg{
+        width: 120%;
+    }
+    .dgtitle{
+        font-size: 15px;
+        color: aqua;
+        width:70% ;
+        top: 13%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .dhead{
+        padding: 50px 40px;
+
+    }
+    .dgallary{
+        background: url("https://images.unsplash.com/photo-1533628635777-112b2239b1c7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2hpdGUlMjAlMjBiYWNrZ3JvdW5kfGVufDB8MHwwfHx8MA%3D%3D");
+    }
+    footer{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .footerbody{
+        justify-content: center;
+        gap: 10px;
+        margin: 20px 15px;
+    }
+    .footertitle{
+        font-size: 15px;
+    }
+    .listitems{
+        padding: 4px;
+    }
+    .listitems a{
+        font-size: 14px;
+    }
+    .footertitle{
+        font-size: 15px;
+    }
+    .location{
+        font-size: 15px;
+        margin: 20px;
+    }
+    .rtitle{
+        font-size: 14epx;
+    }
+    .copy{
+        font-size: 12px;
+    }
+}
